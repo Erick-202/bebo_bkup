@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="fira2023" type="techMaster2.py" name="techMaster2" output="screen"></node>
+	<node pkg="fira2023" type="bottle_pushing.py" name="bottle_pushing"></node>
+	
+
+
+</launch>

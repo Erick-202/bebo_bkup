@@ -1,0 +1,8 @@
+<launch>
+	<node pkg="fira2023" type="master1.py" name="master1" output="screen"></node>
+	<node pkg="fira2023" type="qr1.py" name="qr1"></node>
+	<node pkg="fira2023" type="street_align1.py" name="street_align1"></node>
+	<node pkg="fira2023" type="moment_align1.py" name="moment_align1"></node>
+
+
+</launch>

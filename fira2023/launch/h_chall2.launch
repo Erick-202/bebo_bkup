@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="fira2023" type="techMaster3.py" name="techMaster" output="screen"></node>
+	<node pkg="fira2023" type="H_tracking.py" name="H_tracking"></node>
+	
+
+
+</launch>
